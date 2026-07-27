@@ -1,0 +1,23 @@
+:root {
+  --rouge: #FF6B6B;
+  --nuit: #1F2937;
+  --bg: #F9FAFB;
+  --gradient1: linear-gradient(90deg,rgba(245, 247, 250, 1) 0%, rgba(195, 207, 226, 1) 100%);
+  --gradient2: linear-gradient(90deg,rgba(102, 126, 234, 1) 0%, rgba(118, 75, 162, 1) 100%);
+  --text1: #374151;
+  --text2: #4B5563;
+  --jaune: #FFD700;
+  --textfooter1: #D1D5DB;
+  --textfooter2: #9CA3AF;
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 2px 4px -2px, rgba(0, 0, 0, 0.05) 0 4px 6px -1px;
+}
+
+*{
+    margin: 0;
+    font-family: "inter";
+}
+
+body{
+  background-color: var(--bg);
+}

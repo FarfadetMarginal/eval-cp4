@@ -1,0 +1,23 @@
+@use './global.scss';
+
+.s1{
+    background: var(--gradient1);
+    height: 320px;
+    align-content: space-evenly;
+    h1{
+        color: var(--nuit);
+        justify-self: center;
+        margin: auto;
+        font-weight: 700;
+        font-size: 48px;
+    }
+    p{
+        color: var(--text2);
+        justify-self: center;
+        margin: auto;
+        max-width: 600px;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+}

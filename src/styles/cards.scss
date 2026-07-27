@@ -1,0 +1,58 @@
+@use './global.scss';
+
+.sectioncards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    justify-self: center;
+    gap: 35px;
+    padding: 50px 10px ;
+    .card{
+        border-radius: 16px;
+        max-width: 384px;
+        text-decoration: none;
+        background-color: white;
+        box-shadow: var(--shadow);
+        img{
+            width: 100%;
+            object-fit: cover;
+            max-height: 256px;
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+        }
+        article{
+            padding: 15px;
+            h3{
+                color: var(--nuit);
+                font-weight: 600;
+                font-size: 20px;
+            }
+            p{
+                font-size: 14px;
+                padding: 15px 0px 7px 0px;
+                color: var(--text2);
+            }
+            .tags{
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+                padding: 10px 0px 10px 0px;
+                span{
+                    background: var(--gradient2);
+                    color: white;
+                    border-radius: 99px;
+                    height: 24px;
+                    padding: 0px 10px;
+                    align-content: center;
+                    font-size: 12px;
+                }
+            }
+            .stars{
+                padding: 10px 0px 20px 0px;
+                i{
+                    color: #FFD700;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@use './global.scss';
+
+header{ 
+    display: flex;
+    max-width: 1980px;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    >a{
+        color: var(--rouge);
+        font-family: "pacifico";
+        text-decoration: none;
+        font-size: 24px;
+    }
+    nav{
+        align-self: center;
+        ul{
+            display: flex;
+            list-style: none;
+            padding: 0;
+            gap: 20px;
+            li{
+                a{
+                    text-decoration: none;
+                    font-family: "inter";
+                    color: var(--text1);
+
+                }
+            }
+        }
+    }
+}

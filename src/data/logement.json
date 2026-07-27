@@ -1,0 +1,394 @@
+[
+  {
+    "id": "c1",
+    "title": "Appartement cosy à Marseille",
+    "location": "Marseille, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/apartment?lock=1",
+      "https://loremflickr.com/800/600/apartment?lock=2"
+    ],
+    "tags": [
+      "Vue mer",
+      "Climatisé"
+    ],
+    "host": {
+      "name": "Claire Dupont",
+      "picture": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    "rating": "4",
+    "description": "Un charmant appartement situé proche du Vieux-Port.",
+    "equipments": [
+      "Wifi",
+      "Cuisine",
+      "Télévision",
+      "Climatisation"
+    ]
+  },
+  {
+    "id": "c2",
+    "title": "Studio moderne à Lyon",
+    "location": "Lyon, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/studio?lock=3",
+      "https://loremflickr.com/800/600/studio?lock=4"
+    ],
+    "tags": [
+      "Centre-ville",
+      "Animaux autorisés"
+    ],
+    "host": {
+      "name": "Julien Martin",
+      "picture": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    "rating": "3",
+    "description": "Studio lumineux et bien équipé, idéal pour un court séjour.",
+    "equipments": [
+      "Wifi",
+      "Chauffage",
+      "Cuisine équipée"
+    ]
+  },
+  {
+    "id": "c3",
+    "title": "Loft design à Bordeaux",
+    "location": "Bordeaux, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/loft?lock=5",
+      "https://loremflickr.com/800/600/loft?lock=6"
+    ],
+    "tags": [
+      "Design",
+      "Spacieux"
+    ],
+    "host": {
+      "name": "Sophie Moreau",
+      "picture": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    "rating": "5",
+    "description": "Loft spacieux avec une déco moderne et épurée.",
+    "equipments": [
+      "Machine à laver",
+      "Wifi",
+      "Télévision"
+    ]
+  },
+  {
+    "id": "c4",
+    "title": "Maison de charme en Bretagne",
+    "location": "Quimper, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/house?lock=7",
+      "https://loremflickr.com/800/600/house?lock=8"
+    ],
+    "tags": [
+      "Campagne",
+      "Famille"
+    ],
+    "host": {
+      "name": "Luc Bernard",
+      "picture": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    "rating": "5",
+    "description": "Maison idéale pour des vacances en famille en pleine nature.",
+    "equipments": [
+      "Jardin",
+      "Cuisine",
+      "Barbecue",
+      "Cheminée"
+    ]
+  },
+  {
+    "id": "c5",
+    "title": "Appartement avec terrasse à Nice",
+    "location": "Nice, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/terrace?lock=9",
+      "https://loremflickr.com/800/600/terrace?lock=10"
+    ],
+    "tags": [
+      "Terrasse",
+      "Vue mer"
+    ],
+    "host": {
+      "name": "Elisa Roussel",
+      "picture": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    "rating": "4",
+    "description": "Appartement avec une magnifique terrasse vue mer.",
+    "equipments": [
+      "Wifi",
+      "Cuisine",
+      "Climatisation"
+    ]
+  },
+  {
+    "id": "c6",
+    "title": "Cabane dans les bois",
+    "location": "Annecy, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/cabin?lock=11",
+      "https://loremflickr.com/800/600/cabin?lock=12"
+    ],
+    "tags": [
+      "Nature",
+      "Isolé"
+    ],
+    "host": {
+      "name": "Marc Lefèvre",
+      "picture": "https://randomuser.me/api/portraits/men/15.jpg"
+    },
+    "rating": "5",
+    "description": "Cabane rustique pour une retraite au calme.",
+    "equipments": [
+      "Poêle à bois",
+      "Eau chaude",
+      "Toilettes sèches"
+    ]
+  },
+  {
+    "id": "c7",
+    "title": "Appartement lumineux à Strasbourg",
+    "location": "Strasbourg, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/apartment,livingroom?lock=13",
+      "https://loremflickr.com/800/600/apartment,livingroom?lock=14"
+    ],
+    "tags": [
+      "Centre-ville",
+      "Balcon"
+    ],
+    "host": {
+      "name": "Camille Dubois",
+      "picture": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    "rating": "3",
+    "description": "Appartement spacieux avec balcon ensoleillé.",
+    "equipments": [
+      "Wifi",
+      "Télévision",
+      "Cuisine",
+      "Machine à café"
+    ]
+  },
+  {
+    "id": "c8",
+    "title": "Maison avec piscine à Aix-en-Provence",
+    "location": "Aix-en-Provence, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/swimmingpool?lock=15",
+      "https://loremflickr.com/800/600/swimmingpool?lock=16"
+    ],
+    "tags": [
+      "Piscine",
+      "Luxe"
+    ],
+    "host": {
+      "name": "Henri Laurent",
+      "picture": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    "rating": "4",
+    "description": "Grande maison avec piscine et jardin arboré.",
+    "equipments": [
+      "Piscine",
+      "Cuisine équipée",
+      "Climatisation",
+      "Lave-vaisselle"
+    ]
+  },
+  {
+    "id": "c9",
+    "title": "Studio étudiant à Lille",
+    "location": "Lille, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/bedroom?lock=17",
+      "https://loremflickr.com/800/600/bedroom?lock=18"
+    ],
+    "tags": [
+      "Pratique",
+      "Économique"
+    ],
+    "host": {
+      "name": "Anna Petit",
+      "picture": "https://randomuser.me/api/portraits/women/18.jpg"
+    },
+    "rating": "3",
+    "description": "Studio compact, parfait pour les étudiants.",
+    "equipments": [
+      "Wifi",
+      "Kitchenette",
+      "Chauffage"
+    ]
+  },
+  {
+    "id": "c10",
+    "title": "Chalet alpin à Chamonix",
+    "location": "Chamonix, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/chalet?lock=19",
+      "https://loremflickr.com/800/600/chalet?lock=20"
+    ],
+    "tags": [
+      "Ski",
+      "Montagne"
+    ],
+    "host": {
+      "name": "Olivier Roche",
+      "picture": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    "rating": "5",
+    "description": "Chalet typique avec vue sur les montagnes enneigées.",
+    "equipments": [
+      "Cheminée",
+      "Sauna",
+      "Wifi",
+      "Cuisine"
+    ]
+  },
+  {
+    "id": "c11",
+    "title": "Appartement chic à Paris",
+    "location": "Paris, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/paris,interior?lock=21",
+      "https://loremflickr.com/800/600/paris,interior?lock=22"
+    ],
+    "tags": [
+      "Tour Eiffel",
+      "Design"
+    ],
+    "host": {
+      "name": "Nina Garnier",
+      "picture": "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    "rating": "4",
+    "description": "Appartement raffiné à deux pas de la Tour Eiffel.",
+    "equipments": [
+      "Climatisation",
+      "Wifi",
+      "Cuisine moderne",
+      "Ascenseur"
+    ]
+  },
+  {
+    "id": "c12",
+    "title": "Maison familiale à Nantes",
+    "location": "Nantes, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/garden,house?lock=23",
+      "https://loremflickr.com/800/600/garden,house?lock=24"
+    ],
+    "tags": [
+      "Famille",
+      "Jardin"
+    ],
+    "host": {
+      "name": "Pauline Marchand",
+      "picture": "https://randomuser.me/api/portraits/men/21.jpg"
+    },
+    "rating": "5",
+    "description": "Maison spacieuse idéale pour un séjour en famille.",
+    "equipments": [
+      "Jeux enfants",
+      "Wifi",
+      "Cuisine",
+      "TV"
+    ]
+  },
+  {
+    "id": "c13",
+    "title": "Appartement minimaliste à Montpellier",
+    "location": "Montpellier, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/interior,minimalist?lock=25",
+      "https://loremflickr.com/800/600/interior,minimalist?lock=26"
+    ],
+    "tags": [
+      "Minimaliste",
+      "Clair"
+    ],
+    "host": {
+      "name": "Tom Besson",
+      "picture": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    "rating": "5",
+    "description": "Appartement moderne à la déco épurée.",
+    "equipments": [
+      "Cuisine équipée",
+      "Wifi",
+      "Machine à laver"
+    ]
+  },
+  {
+    "id": "c14",
+    "title": "Riad traditionnel à Marrakech",
+    "location": "Marrakech, Maroc",
+    "pictures": [
+      "https://loremflickr.com/800/600/riad?lock=27",
+      "https://loremflickr.com/800/600/riad?lock=28"
+    ],
+    "tags": [
+      "Exotique",
+      "Traditionnel"
+    ],
+    "host": {
+      "name": "Yasmine Aït",
+      "picture": "https://randomuser.me/api/portraits/men/23.jpg"
+    },
+    "rating": "3",
+    "description": "Riad charmant dans la médina avec patio central.",
+    "equipments": [
+      "Terrasse",
+      "Climatisation",
+      "Wifi"
+    ]
+  },
+  {
+    "id": "c15",
+    "title": "Cabane sur pilotis à Arcachon",
+    "location": "Arcachon, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/wooden,cabin?lock=29",
+      "https://loremflickr.com/800/600/wooden,cabin?lock=30"
+    ],
+    "tags": [
+      "Original",
+      "Nature"
+    ],
+    "host": {
+      "name": "Jean-Pierre Noël",
+      "picture": "https://randomuser.me/api/portraits/women/24.jpg"
+    },
+    "rating": "4",
+    "description": "Cabane insolite avec vue sur le bassin d'Arcachon.",
+    "equipments": [
+      "Eau chaude",
+      "Electricité",
+      "Terrasse"
+    ]
+  },
+  {
+    "id": "c16",
+    "title": "Appartement rétro à Toulouse",
+    "location": "Toulouse, France",
+    "pictures": [
+      "https://loremflickr.com/800/600/vintage,interior?lock=31",
+      "https://loremflickr.com/800/600/vintage,interior?lock=32"
+    ],
+    "tags": [
+      "Vintage",
+      "Charmant"
+    ],
+    "host": {
+      "name": "Laura Perrin",
+      "picture": "https://randomuser.me/api/portraits/men/25.jpg"
+    },
+    "rating": "5",
+    "description": "Appartement coloré au style rétro années 70.",
+    "equipments": [
+      "Télévision",
+      "Cuisine",
+      "Wifi",
+      "Chauffage"
+    ]
+  }
+]
