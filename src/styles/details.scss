@@ -1,0 +1,77 @@
+@use './global.scss';
+
+main{
+    width: 980px;
+    margin: auto;
+    justify-self: center;
+    .carrousel{
+        position: relative;
+        img{         
+            max-height: 384px;
+            object-fit: cover;
+            width: 100%;
+        }
+        button{
+            position: absolute;
+            top: 50%;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 99px;
+            border-style: none;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .gauche{
+            right: 94%;
+        }
+        .droite{
+            left: 94%;
+        }
+    }
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        color: var(--nuit);
+        padding: 20px 0px;
+    }
+    >p{
+        color: var(--text2);
+    }
+    .tags{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding: 20px 0px 20px 0px;
+        span{
+            background: var(--gradient2);
+            color: white;
+            border-radius: 99px;
+            height: 36px;
+            padding: 0px 15px;
+            align-content: center;
+            font-size: 14px;
+        }
+    }
+    .host{
+        display: flex;
+        padding-bottom: 20px;
+        img{
+            border-radius: 99px;
+            width: 64px;
+            height: 64px;
+        }
+        div{
+            align-content: space-around;
+            h2{
+                font-weight: 600;
+                font-size: 16px;
+                color: var(--nuit);
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                color: var(--text2);
+            }
+        }
+    }
+}

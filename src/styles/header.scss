@@ -2,11 +2,10 @@
 
 header{ 
     display: flex;
-    max-width: 1980px;
-    justify-content: space-evenly;
+    max-width: 1780px;
+    justify-content: space-between;
     margin: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding: 10px 350px 10px 350px;
     >a{
         color: var(--rouge);
         font-family: "pacifico";
