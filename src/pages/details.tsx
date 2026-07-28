@@ -5,6 +5,7 @@ import Footer from "../components/footer"
 import data from "../data/logement.json"
 import Slider from "../components/carrousel"
 import '../styles/details.scss'
+import Collapse from "../components/collapse"
 
 
 const result = data.find(card => card.id == id);
@@ -30,6 +31,7 @@ return (
                    </div>
             </div>
             </main>
+            <Collapse />
             <Footer />
         </>
     )
