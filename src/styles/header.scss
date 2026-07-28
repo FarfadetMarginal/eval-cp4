@@ -6,6 +6,10 @@ header{
     justify-content: space-between;
     margin: auto;
     padding: 10px 300px 10px 300px;
+    @media screen and (max-width :1024px) {
+        justify-content: space-evenly;
+        padding: 10px 0px 10px 0px;
+    }
     >a{
         color: var(--rouge);
         font-family: "pacifico";

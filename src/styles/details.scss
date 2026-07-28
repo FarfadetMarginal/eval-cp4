@@ -4,6 +4,12 @@ main{
     width: 980px;
     margin: auto;
     justify-self: center;
+    @media screen and (max-width :1024px) {
+         width: 680px;
+    }
+    @media screen and (max-width :767px) {
+         width: 300px;
+    }
     .carrousel{
         position: relative;
         img{         
@@ -23,9 +29,21 @@ main{
         }
         .gauche{
             right: 94%;
+            @media screen and (max-width :1024px) {
+                right: 89%;
+            }
+            @media screen and (max-width :767px) {
+                right: 84%;
+            }
         }
         .droite{
             left: 94%;
+            @media screen and (max-width :1024px) {
+                left: 89%;
+            }
+            @media screen and (max-width :767px) {
+                left: 84%;
+            }
         }
     }
     h1{

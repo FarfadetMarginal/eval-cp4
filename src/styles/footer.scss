@@ -26,6 +26,9 @@ footer{
                     a{
                         text-decoration: none;
                         color: var(--textfooter1);
+                        @media screen and (max-width :467px) {
+                            font-size: 12px;
+                        }
                     }
                 }
             }
