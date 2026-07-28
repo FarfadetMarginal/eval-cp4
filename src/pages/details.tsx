@@ -30,8 +30,8 @@ return (
                     <p>Hôte depuis 3 ans</p>
                    </div>
             </div>
-            </main>
             <Collapse />
+            </main>
             <Footer />
         </>
     )

@@ -75,4 +75,47 @@ main{
             }
         }
     }
+    article{
+        border-style: solid;
+        border-radius: 16px;
+        border-width: 1px;
+        border-color: #E5E7EB;
+        margin: 20px 0px;
+        padding: 10px;
+        div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h3{
+                font-weight: 620;
+                font-size: 16px;
+                color: var(--nuit);
+            }
+            i{
+                font-size: 12px;
+            }
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            color: var(--text2);
+            padding-top: 15px;
+        }
+        ul{
+            padding-top: 15px;
+            list-style: none;
+            padding-left: 0px;
+            grid-template-columns: 1fr 1fr;
+            li{
+                font-size: 16px;
+                font-weight: 400;
+                color: var(--text2);
+                padding: 7px 0px;
+                i{
+                    padding-right: 10px;
+                    color: #4ECDC4;
+                }
+            }
+        }
+    }
 }

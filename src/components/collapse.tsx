@@ -46,7 +46,7 @@ function Icone(x : string) {
         
 
     }
-    return icones[x] || "?"
+    return icones[x] || <i className="fa-regular fa-circle"></i>
 }
 
 
@@ -69,7 +69,7 @@ function Icone(x : string) {
                 <i style={{ display: coll2 ? "none" : "block" }} className="fa-solid fa-arrow-down"></i>
                 <i style={{ display: coll2 ? "block" : "none" }} className="fa-solid fa-arrow-up"></i>
             </div>
-            <ul style={{ display: coll2 ? "block" : "none" }}>
+            <ul style={{ display: coll2 ? "grid" : "none" }}>
                 {result?.equipments.map((eq)=>(
                     <li>{Icone(eq)}{eq}</li>
                 ))}
