@@ -1,5 +1,7 @@
 @use './global.scss';
 
+$br1 : 16px;
+
 .sectioncards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -7,8 +9,14 @@
     justify-self: center;
     gap: 35px;
     padding: 50px 10px ;
+    @media screen and (max-width :767px) {
+         grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (max-width :400px) {
+         grid-template-columns: 1fr;
+    }
     .card{
-        border-radius: 16px;
+        border-radius: $br1;
         max-width: 384px;
         text-decoration: none;
         background-color: white;
@@ -17,8 +25,8 @@
             width: 100%;
             object-fit: cover;
             max-height: 256px;
-            border-top-left-radius: 16px;
-            border-top-right-radius: 16px;
+            border-top-left-radius: $br1;
+            border-top-right-radius: $br1;
         }
         article{
             padding: 15px;
