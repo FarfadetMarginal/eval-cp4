@@ -2,7 +2,30 @@ import { useState } from "react"
 const url = new URL(window.location.href)
 const id = url.searchParams.get("id")
 import data from "../data/logement.json"
-const result = data.find(card => card.id == id);
+let result = data.find(card => card.id == id);
+
+if (!result){
+    result = {
+    "id": "00",
+    "title": "Not found",
+    "location": "404",
+    "pictures": [
+      "public/pexels-padrinan-2882552.jpg"
+    ],
+    "tags": [
+      "try again"
+    ],
+    "host": {
+      "name": "Not found",
+      "picture": "public/pexels-kalistro666-25785791.jpg"
+    },
+    "rating": "0",
+    "description": "please try again with another id",
+    "equipments": [
+      
+    ]
+  }
+}
 
 
 export default function Collapse() {
@@ -20,7 +43,7 @@ export default function Collapse() {
 
 function Icone(x : string) {
     const icones = {
-       "Wifi": <i className="fa-solid fa-wifi"></i>,
+        "Wifi": <i className="fa-solid fa-wifi"></i>,
         "Climatisation": <i className="fa-solid fa-temperature-empty"></i>,
         "Cuisine équipée": <i className="fa-solid fa-kitchen-set"></i>,
         "Télévision": <i className="fa-solid fa-tv"></i>,

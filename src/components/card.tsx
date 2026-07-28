@@ -13,7 +13,7 @@ type CardProps = {
     equipments? : Array<string>
 };
 
-function Stars(x:number | number) {
+function Stars(x:number) {
     const star : Array<React.ReactElement>=[]
     for(let i = 0; i < x; i++) {
         star.push(<i className="fa-solid fa-star"></i>)
