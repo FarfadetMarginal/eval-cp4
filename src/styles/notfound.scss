@@ -1,0 +1,20 @@
+@use './global.scss';
+
+
+
+.nfh1{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--nuit);
+    padding: 20px 0px;
+    justify-self: center;
+    display: flex;
+}
+.nfa{
+    color: var(--rouge);
+    font-family: "pacifico";
+    text-decoration: none;
+    font-size: 24px;
+    justify-self: center;
+    display: flex;
+}
